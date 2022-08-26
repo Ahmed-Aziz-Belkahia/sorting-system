@@ -107,6 +107,9 @@ if os.path.exists("./Settings.json"):
             folder = Folders[list(Folders)[i]]
             #if path dosen't exist change it to the default one
             if os.path.exists(folder) == False:
+                if os.path.exists(DefaultFolders[list(Folders)[i]]):
+                    pass
+                else: os.mkdir(DefaultFolders[list(Folders)[i]])
                 Folders[list(Folders)[i]] = DefaultFolders[list(Folders)[i]]
         TrayIconStatus = Settings[1]
         TrayStatus.set(Settings[1]["TrayIconStatus"])
