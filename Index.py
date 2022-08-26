@@ -29,7 +29,7 @@ else:
     conn = sql.connect("Transfer Log.db", check_same_thread=False)
     cursor = conn.cursor()
     
-#function to show all data in database
+#function to show all data in the database
 def Show_all():
     cursor.execute("SELECT * FROM transfer_log")
     records = ''
