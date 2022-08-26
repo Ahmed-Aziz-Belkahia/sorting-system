@@ -1,0 +1,14 @@
+[
+    {
+        "Source": "C:\\Users\\ahmad/Downloads/",
+        "ImgDir": "./Images/",
+        "VidDir": "./Videos/",
+        "AudDir": "./Audio/",
+        "DocDir": "./Documents/",
+        "ExeDir": "./Executable/",
+        "OthDir": "./Others/"
+    },
+    {
+        "TrayIconStatus": 1
+    }
+]
