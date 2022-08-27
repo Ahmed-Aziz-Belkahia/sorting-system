@@ -121,7 +121,7 @@ else:
     with open("./Settings.json", "w") as file:
         json.dump(Settings, file, indent=4)
 
-#a function i call every time i change something in folders or trayiconstatus so the settings variable get updated
+#a function i call every time a setting change
 def UpdateSettings():
     globals()["Settings"] = [Folders, TrayIconStatus]
 
